@@ -76,3 +76,7 @@ Each folder has `demo`, which needs no key, and `live`, which reads your key fro
 - [Pricing](https://scrapefield.com/pricing) and [status](https://scrapefield.com/status)
 
 Questions: [support@scrapefield.com](mailto:support@scrapefield.com).
+
+## License
+
+MIT: use the skill and the examples as you like. See [LICENSE](LICENSE).
