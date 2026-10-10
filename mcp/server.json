@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.scrapefield/scrapefield",
+  "title": "ScrapeField",
+  "description": "Google Maps, LinkedIn, Instagram, TikTok and X data as tools. Demo mode needs no key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scrapefield.com/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrapefield.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer sf_live_… from scrapefield.com. Leave it out to try every tool in demo mode, or to ask for a key with the sign_up tool.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
